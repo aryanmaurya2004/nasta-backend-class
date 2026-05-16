@@ -13,6 +13,7 @@ const createMenu = async (req, res) => {
     res.json(menu)
 };
 const getMenu = async (req, res) => {
+    
     res.json({massage:"Get"})
 }
 const updateMenu = async (req, res) => {
